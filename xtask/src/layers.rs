@@ -42,6 +42,7 @@ pub const TABLE: &[(&str, Class)] = &[
     ("fonts", Class::Layer(2)),
     ("render", Class::Layer(2)),
     ("io", Class::Layer(3)),
+    ("cam", Class::Layer(3)),
     ("engine", Class::Layer(4)),
     ("ui-egui", Class::Layer(5)),
     ("mcp", Class::Layer(5)),
@@ -50,6 +51,7 @@ pub const TABLE: &[(&str, Class)] = &[
     ("cadcraft", Class::Exempt),
     ("cli", Class::Exempt),
     ("web", Class::Exempt),
+    ("mbd-cam", Class::Exempt),
     ("xtask", Class::Exempt),
 ];
 

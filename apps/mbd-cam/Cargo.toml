@@ -1,0 +1,19 @@
+[package]
+name = "mbd-cam"
+description = "Offline CAM planning assistant for MBD"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[lints]
+workspace = true
+
+[dependencies]
+cadcraft-cam = { workspace = true }
+eframe = { workspace = true, features = ["default_fonts", "wgpu", "wayland", "x11", "persistence"] }
+egui = { workspace = true }
+rfd = { workspace = true }
+rusqlite = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
